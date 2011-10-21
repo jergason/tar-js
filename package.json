@@ -8,12 +8,10 @@
     "url": "git://github.com/beatgammit/tar-js.git"
   },
   "author": "T. Jameson Little <t.jameson.little@gmail.com>",
-  "main": "lib/tar.js",
-  "keywords": ["tar", "browser", "client", "offline"],
+  "contributors": ["Jamison Dance <jergason@gmail.com> (http://jamisondance.com)"],
+  "main": "./lib/tar.js",
+  "keywords": ["tar", "ender", "browser", "client", "offline"],
   "directories": {
     "lib": "lib"
-  },
-  "dependencies": {
-	  "require-kiss": "*"
   }
 }
