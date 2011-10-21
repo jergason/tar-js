@@ -17,19 +17,23 @@ Dependencies
 
 Tar needs an HTML5 compliant browser. More specifically it needs `Uint8Array` to work.
 
-The only external module is require-kiss, which makes browser JS much more Node-like.
 
-This module can be installed from npm (`npm install require-kiss`) or directly downloaded from github (https://github.com/coolaj86/require-kiss-js).
+Installation
+------------
+
+Tar needs [Ender](http://ender.no.de) to work. If you have Ender
+installed on your system, then Tar can be installed by typing `ender
+build tar-js`, or `ender add tar-js` if you already have an ender file.
 
 Usage Guide
 ===========
 
-In your HTML file, make sure that require-kiss is included first. Then, to use it, do something like this:
+Require the library like so:
 
-    var Tar = require('tar'),
+    var Tar = require('tar-js'),
         tape = new Tar();
 
-Then all you got to do is call `tape.append` with your params and it'll be added to the archive. That's it!
+Then just call `tape.append` with your params and it'll be added to the archive. That's it!
 
 Here's the api for append: `append(filepath, content, [opts], [callback])`
 
